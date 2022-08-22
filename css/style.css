@@ -8,17 +8,16 @@ hr{
     width: 500px;
 }
 
-.title{
+#title{
     font-size: 36px;
     font-weight: bold;
     letter-spacing: 2px;
 
 }
-
-.board{
+#board{
     width: 350px;
     height: 420px;
-    background-color: green;
+    background-color: #fff;
     margin: 0 auto;
     margin-top: 3px;
     display: flex;
@@ -52,7 +51,7 @@ hr{
     color: white;
     border-color: white;
 }
-.absent{
+.absent{ 
     background-color: #787c7e;
     color: white;
     border-color: white;
