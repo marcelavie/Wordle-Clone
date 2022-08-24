@@ -1,6 +1,5 @@
 var wordList =
-
-    ["sagaz", "amora", "pinto", "amago", "negro", "exito", "mexer", "termo", "nobre", "senso",
+["sagaz", "amora", "pinto", "amago", "negro", "exito", "mexer", "termo", "nobre", "senso",
         "arder", "bolha", "rolha", "circo", "falir", "pedir", "afeto", "plena", "etica", "mutua",
         "tenue", "sutil", "vigor", "aquem", "fazer", "porem", "audaz", "assim", "sanar", "seçao",
         "inato", "cerne", "fosse", "ideia", "poder", "moral", "desde", "torpe", "muito", "justo",
@@ -59,6 +58,7 @@ var wordList =
         "drops", "locus", "porta", "ossos", "latir", "galho", "canoa", "lagoa", "arara", "cinco",
         "besta", "cinza", "lilas", "crase", "touca", "botao", "rouca", "radio", "desta", "ruina",
         "corsa", "palio", "palha", "video", "zelar", "combo", "vosso", "nosso", "vinha", "culpa",
+
        "bioma", "menos", "ereto", "finda", "paira", "bonus", "agudo", "feudo", "facto", "advir",
         "urgia", "cutis", "traço", "meigo", "surja", "tetra", "sitio", "super", "julia", "facho",
         "suave", "autos", "amena", "rumor", "tento", "pilar", "turma", "cocho", "clean", "museu",
