@@ -1,4 +1,5 @@
-var wordList =
+var listaDePalavras =
+
 ["sagaz", "amora", "pinto", "amago", "negro", "exito", "mexer", "termo", "nobre", "senso",
         "arder", "bolha", "rolha", "circo", "falir", "pedir", "afeto", "plena", "etica", "mutua",
         "tenue", "sutil", "vigor", "aquem", "fazer", "porem", "audaz", "assim", "sanar", "seçao",

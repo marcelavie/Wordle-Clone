@@ -1,12 +1,35 @@
+.application{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+
+}
 body{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+    background-image: url(https://i.stack.imgur.com/SvWWN.png);
+    background-size: cover;
 }
 
+header {
+    background-color: transparent;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 hr{
     width: 500px;
 }
-
+h1 {
+    margin: 0;
+    letter-spacing: 100px;
+    color: aliceblue;
+}
 #title{
     font-size: 36px;
     font-weight: bold;
@@ -30,7 +53,7 @@ hr{
     margin: 2.5px;
 
     /* Text */
-    color: black;
+    color: white;
     font-size: 36px;
     font-weight: bold;
     display: flex;
@@ -38,6 +61,54 @@ hr{
     align-items: center;
 }
 
+.keyboard-row {
+    width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.key-tile{
+ /* box */
+
+ border: 1px solid lightgray;
+ border-radius: 2px;
+ background-color: #d3d6da;
+ width: 36px;
+ height: 50px;
+ margin: 1px;
+ gap: 3rem;
+ 
+ /* Text */
+ border-radius: 2px;
+ font-size: 20px;
+ font-weight: bold;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.enter-key-tile{
+    /* box */
+    background-color: #d3d6da;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    width: 76px;
+    height: 50px;
+    margin: 1px;
+
+    
+    /* Text */
+    border-radius: 2px;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+   #confetti-canvas{
+    position: absolute;
+    top: 0;
+}
 .correct{
     background-color: #6aaa64;
     color: white;
@@ -54,38 +125,3 @@ hr{
     color: white;
     border-color: white;
 }
-.keyboard-row {
-    width: 400px;
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-}
-.key-tile{
- /* box */
- border: 1px solid lightgray;
- width: 36px;
- height: 40px;
- margin: 1px;
- 
- /* Text */
- font-size: 20px;
- font-weight: bold;
- display: flex;
- justify-content: center;
- align-items: center;
-}
-
-.enter-key-tile{
-    /* box */
-    border: 1px solid lightgray;
-    width: 76px;
-    height: 40px;
-    margin: 1px;
-    
-    /* Text */
-    font-size: 20px;
-    font-weight: bold;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-   }
